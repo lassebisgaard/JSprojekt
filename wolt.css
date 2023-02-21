@@ -11,8 +11,21 @@ body{
 background-color: #efecf4;
 }
 
+.ForsideBillede {
+           position: relative;
+}
+
 img {
   position: absolute;
-  top: 19px;
+  top: -19px;
   right: 16px;
+}
+
+.first {
+  position: absolute;
+}
+
+.second{
+  position: absolute;
+  bottom: -150px;
 }
