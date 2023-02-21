@@ -26,6 +26,10 @@ img {
 }
 
 .second{
+  font-weight: bold;
   position: absolute;
   bottom: -150px;
+  display: inline;
+  border-bottom: 2px solid black;
 }
+
