@@ -10,3 +10,9 @@ nav{
 body{
 background-color: #efecf4;
 }
+
+img {
+  position: absolute;
+  top: 19px;
+  right: 16px;
+}
