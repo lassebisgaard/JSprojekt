@@ -27,6 +27,7 @@
     text-decoration: none;
     font-size: 17px;
     background-color: lightblue;
+    margin-right: 50px;
  }
 
 body{
@@ -182,3 +183,4 @@ background-color: #efecf4;
     top: 0.875rem;
     width: auto;
     left: 3.25rem;
+    }
