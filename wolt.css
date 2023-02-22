@@ -28,8 +28,16 @@ img {
 .second{
   font-weight: bold;
   position: absolute;
-  bottom: -150px;
-  display: inline;
+  display: inline-block;
   border-bottom: 2px solid black;
 }
 
+input[type=text], select {
+  width: 10%;
+  padding: 12px 20px;
+  margin: 100px 0;
+  display: inline-block;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-sizing: border-box;
+}
