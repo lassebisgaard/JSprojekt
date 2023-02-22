@@ -8,12 +8,6 @@
 .nav {
   overflow: hidden;
   background-color: white;
-<<<<<<< HEAD
-
-
-=======
-  padding-top: 20px;
->>>>>>> f6121f20c4fcb0bde36839738f2a5dcb11a127d3
 }
 .nav button {
   float: left;
@@ -57,11 +51,8 @@
   font-size: 17px;
   font-family: arial;
   background-color: white;
-<<<<<<< HEAD
-  margin-top: 15px;
-=======
->>>>>>> f6121f20c4fcb0bde36839738f2a5dcb11a127d3
   border: 0px;
+  margin-top: 15px;
 }
 
 body {
