@@ -9,7 +9,7 @@
   overflow: hidden;
   background-color: white;
   padding-top: 20px;
-  padding-bottom: 0px;
+
 }
 .nav button {
   float: left;
@@ -48,7 +48,7 @@
   font-size: 17px;
   font-family: arial;
   background-color: white;
-  margin-right: 50px;
+
   border: 0px;
 }
 
