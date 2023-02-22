@@ -1,4 +1,4 @@
-*{
+* {
   margin: 0;
   padding: 0;
   text-decoration: none;
@@ -6,64 +6,83 @@
 }
 
 .nav {
-    overflow: hidden;
-    background-color: white;
-  }
+  overflow: hidden;
+  background-color: white;
+  padding-top: 20px;
+  padding-bottom: 20px;
+}
 .nav button {
-    float: left;
-    color: black;
-    text-align: center;
-    padding: 14px 16px;
-    text-decoration: none;
-    font-size: 17px;
-    background-color: lightblue;
-  }
+  float: left;
+  color: black;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 17px;
+  font-weight: bold;
+  background-color: white;
+  border: 0px;
+  border-radius: 15px;
+  margin-left: 40px;
+}
 
 .nav button.split {
-    float: right;
-    color: black;
-    text-align: center;
-    padding: 14px 16px;
-    text-decoration: none;
-    font-size: 17px;
-    background-color: lightblue;
-    margin-right: 50px;
- }
+  float: right;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 17px;
+  font-weight: bold;
+  background-color: #0d96e1;
+  margin-right: 50px;
+  border: 0px;
+}
+.nav button.split2 {
+  float: right;
+  color: black;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 17px;
+  background-color: white;
+  margin-right: 50px;
+  border: 0px;
+}
 
-body{
-background-color: #efecf4;
+body {
+  background-color: #efecf4;
 }
 
 .ForsideBillede {
-           position: relative;
+  position: relative;
 }
 
 .indhold {
-    display: flex;
-    justify-content: center;
-    align-items: flex-end;
-    height: 50rem;
-    overflow: hidden;
+  display: flex;
+  justify-content: center;
+  align-items: flex-end;
+  height: 50rem;
+  overflow: hidden;
 }
 
 .RVApyy {
-    top: 0;
-    right: -25%;
-    position: absolute;
-    z-index: 0;
-    min-height: 100%;
-    width: auto;
-    min-width: 1e3px;
-    -o-object-fit: cover;
-    object-fit: cover;
-    transition: opacity.15s ease-in-out;
+  top: 0;
+  right: -25%;
+  position: absolute;
+  z-index: 0;
+  min-height: 100%;
+  width: auto;
+  min-width: 1e3px;
+  -o-object-fit: cover;
+  object-fit: cover;
+  transition: opacity.15s ease-in-out;
 }
 
 .first {
   position: absolute;
 }
 
-.second{
+.second {
   font-weight: bold;
   position: absolute;
   bottom: -60px;
@@ -72,115 +91,113 @@ background-color: #efecf4;
 }
 
 .box1 {
-    position: relative;
-    max-width: 1200px;
-    width: 100%;
-    height: 100%;
-    display: flex;
-    justify-content: flex-start;
-    align-items: flex-end;
+  position: relative;
+  max-width: 1200px;
+  width: 100%;
+  height: 100%;
+  display: flex;
+  justify-content: flex-start;
+  align-items: flex-end;
 }
 
 .Green {
-    top: 0;
-    right: -25%;
-    position: absolute;
-    z-index: 0;
-    min-height: 100%;
-    width: auto;
-    min-width: 1e3px;
-    -o-object-fit: cover;
-    object-fit: cover;
-    opacity: 0;
-    transition: opacity.15s ease-in-out;
- }
+  top: 0;
+  right: -25%;
+  position: absolute;
+  z-index: 0;
+  min-height: 100%;
+  width: auto;
+  min-width: 1e3px;
+  -o-object-fit: cover;
+  object-fit: cover;
+  opacity: 0;
+  transition: opacity.15s ease-in-out;
+}
 
 .box2 {
-      display: none;
-      position: absolute;
-      top: 0;
-      width: 100%;
-      height: 100%;
-      z-index: 1;
-      background-color: rgba(33,32,37,.3);
-  }
+  display: none;
+  position: absolute;
+  top: 0;
+  width: 100%;
+  height: 100%;
+  z-index: 1;
+  background-color: rgba(33, 32, 37, 0.3);
+}
 
+.box3 {
+  position: relative;
+  z-index: 11;
+  width: 33.375rem;
+  margin-top: 3.4375rem;
+  padding: 0 30px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  height: 100%;
+}
 
-  .box3 {
-    position: relative;
-    z-index: 11;
-    width: 33.375rem;
-    margin-top: 3.4375rem;
-    padding: 0 30px;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    height: 100%;
- }
+.box3-2 {
+  height: 16rem;
+  position: relative;
+}
 
- .box3-2 {
-     height: 16rem;
-     position: relative;
- }
+.first {
+  font-variant-ligatures: common-ligatures;
+  font-size: 3.75rem;
+  line-height: 4.75rem;
+  font-weight: 700;
+  font-style: normal;
+  font-stretch: normal;
+  text-transform: none;
+  margin: 0px 0px 2.75rem;
+}
 
- .first{
-    font-variant-ligatures: common-ligatures;
-    font-size: 3.75rem;
-    line-height: 4.75rem;
-    font-weight: 700;
-    font-style: normal;
-    font-stretch: normal;
-    text-transform: none;
-    margin: 0px 0px 2.75rem;
- }
-
- .label1 {
-    font-size: 1.2rem;
-    font-weight: 500;
-    color: var(--cb-textPrimary);
-    margin-bottom: 1rem;
+.label1 {
+  font-size: 1.2rem;
+  font-weight: 500;
+  color: var(--cb-textPrimary);
+  margin-bottom: 1rem;
 }
 
 .boxposition {
-    position: relative;
-    margin: 0;
-    padding: 0;
-    display: flex;
+  position: relative;
+  margin: 0;
+  padding: 0;
+  display: flex;
 }
 
 .skrivebox {
-    width: 100%;
-    position: relative;
+  width: 100%;
+  position: relative;
 }
 
 .skrivebox1 {
-    position: relative;
-    width: 100%;
+  position: relative;
+  width: 100%;
 }
 
 .skriveboxstyling {
-    background: rgb(255, 255, 255);
-    font-size: 1rem;
-    line-height: 1.5rem;
-    font-style: normal;
-    font-stretch: normal;
-    text-transform: none;
-    font-weight: 400;
-    appearance: none;
-    box-shadow: none;
-    box-sizing: border-box;
-    width: 100%;
-    color: rgb(32, 33, 37);
-    transition: border 0.2s linear 0s;
-    border-radius: 0.5rem;
-    border: 2px solid rgba(32, 33, 37, 0.12);
-    padding: 0.75rem 0.875rem;
-    padding-inline-start: 3.125rem;
-
- }
-    .textstylingbox {
-    position: absolute;
-    top: 0.875rem;
-    width: auto;
-    left: 3.25rem;
-    }
+  background: rgb(255, 255, 255);
+  font-size: 1rem;
+  line-height: 1.5rem;
+  font-style: normal;
+  font-stretch: normal;
+  text-transform: none;
+  font-weight: 400;
+  appearance: none;
+  box-shadow: none;
+  box-sizing: border-box;
+  width: 100%;
+  color: rgb(32, 33, 37);
+  transition: border 0.2s linear 0s;
+  border-radius: 0.5rem;
+  border: 2px solid rgba(32, 33, 37, 0.12);
+  padding: 0.75rem 0.875rem;
+  padding-inline-start: 3.125rem;
+}
+.textstylingbox {
+  position: absolute;
+  top: 0.875rem;
+  width: auto;
+  left: 3.25rem;
+}
