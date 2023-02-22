@@ -8,7 +8,7 @@
 .nav {
   overflow: hidden;
   background-color: white;
-  padding-top: 20px;
+
 
 }
 .nav button {
@@ -24,6 +24,7 @@
   border: 0px;
   border-radius: 15px;
   margin-left: 40px;
+
 }
 
 .nav button.split {
@@ -38,6 +39,10 @@
   background-color: #0d96e1;
   margin-right: 50px;
   border: 0px;
+  margin-top: 15px;
+
+  
+
 }
 .nav button.split2 {
   float: right;
@@ -48,7 +53,7 @@
   font-size: 17px;
   font-family: arial;
   background-color: white;
-
+  margin-top: 15px;
   border: 0px;
 }
 
