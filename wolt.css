@@ -15,7 +15,7 @@ background-color: #efecf4;
            position: relative;
 }
 
-.txolfH {
+.indhold {
     display: flex;
     justify-content: center;
     align-items: flex-end;
@@ -43,7 +43,7 @@ background-color: #efecf4;
 .second{
   font-weight: bold;
   position: absolute;
-  bottom: -150px;
+  bottom: -60px;
   display: inline;
   border-bottom: 2px solid black;
 }
@@ -118,28 +118,25 @@ background-color: #efecf4;
     margin-bottom: 1rem;
 }
 
-.fjcTgG {
+.boxposition {
     position: relative;
     margin: 0;
     padding: 0;
     display: flex;
 }
 
-.bxjWMu {
+.skrivebox {
     width: 100%;
     position: relative;
 }
 
-.cODVeZ {
+.skrivebox1 {
     position: relative;
     width: 100%;
 }
 
-.pKKvM {
-    font-feature-settings: "kern";
-    -webkit-font-smoothing: antialiased;
-    text-rendering: optimizelegibility;
-    font-family: system-ui, -apple-system, BlinkMacSystemFont, Roboto, "Open Sans", "Helvetica Neue", sans-serif;
+.skriveboxstyling {
+    background: rgb(255, 255, 255);
     font-size: 1rem;
     line-height: 1.5rem;
     font-style: normal;
@@ -156,30 +153,10 @@ background-color: #efecf4;
     border: 2px solid rgba(32, 33, 37, 0.12);
     padding: 0.75rem 0.875rem;
     padding-inline-start: 3.125rem;
-    background: transparent;
+
  }
-    .fSIYwo {
-    font-feature-settings: "kern";
-    -webkit-font-smoothing: antialiased;
-    text-rendering: optimizelegibility;
-    font-family: system-ui, -apple-system, BlinkMacSystemFont, Roboto, "Open Sans", "Helvetica Neue", sans-serif;
-    font-size: 1rem;
-    line-height: 1.5rem;
-    font-style: normal;
-    font-stretch: normal;
-    text-transform: none;
-    font-weight: 400;
-    color: rgba(32, 33, 37, 0.64);
+    .textstylingbox {
     position: absolute;
     top: 0.875rem;
     width: auto;
-    right: 3.25rem;
     left: 3.25rem;
-    pointer-events: none;
-    transition: transform 0.15s ease-in-out 0s;
-    transform-origin: left center;
-    white-space: nowrap;
-    overflow: hidden;
-    text-overflow: ellipsis;
-    text-align: start;
-}
