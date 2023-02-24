@@ -25,6 +25,9 @@
 
 }
 
+.nav button.split0 {
+  color: #749850;
+}
 .nav button.split {
   float: right;
   color: white;
@@ -44,13 +47,13 @@
 }
 .nav button.split2 {
   float: right;
-  color: black;
+  color: white;
   text-align: center;
   padding: 14px 16px;
   text-decoration: none;
   font-size: 17px;
   font-family: arial;
-  background-color: white;
+  background-color: #0d96e1;
   border: 0px;
   margin-top: 15px;
 }
