@@ -11,8 +11,3 @@ var colors = ["#749850", "white", "red", "#0D96E1"];
 function changeColor1(element, color) {
   element.style.color = color;
 }
-
-let restaurant = "Eller se populære restauranter og butikker i Odense";
-{
-  document.getElementById("restauranter").innerHTML = restaurant;
-}

@@ -94,13 +94,6 @@ body {
   display: inline;
   border-bottom: 2px solid black;
 }
-.restauranter {
-  font-weight: bold;
-  position: absolute;
-  bottom: -60px;
-  display: inline;
-  border-bottom: 2px solid black;
-}
 
 .box1 {
   position: relative;
