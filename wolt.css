@@ -22,7 +22,6 @@
   border: 0px;
   border-radius: 15px;
   margin-left: 40px;
-
 }
 
 .nav button.split0 {
@@ -41,9 +40,6 @@
   margin-right: 50px;
   border: 0px;
   margin-top: 15px;
-
-  
-
 }
 .nav button.split2 {
   float: right;
@@ -92,6 +88,13 @@ body {
 }
 
 .second {
+  font-weight: bold;
+  position: absolute;
+  bottom: -60px;
+  display: inline;
+  border-bottom: 2px solid black;
+}
+.restauranter {
   font-weight: bold;
   position: absolute;
   bottom: -60px;
