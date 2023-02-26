@@ -29,3 +29,11 @@ function detectMad() {
 
   alert(message);
 }
+
+
+const varianter = ["Pizza", "Burger", "Nachos"];
+let i, len, text;
+for (i = 0, len = varianter.length, text = ""; i < len; i++) {
+  text += varianter[i] + "<br>";
+}
+document.getElementById("nam").innerHTML = text;
