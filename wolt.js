@@ -1,11 +1,11 @@
-// Knappen - 0 - Green - 1 - White - 2 - Red - 3 - Babyblue
+// FREDERIK - Knappen - 0 - Green - 1 - White - 2 - Red - 3 - Babyblue
 var colors = ["#749850", "white", "red", "#0D96E1"];
 
 function changeColor(element, color) {
   element.style.backgroundColor = color;
 }
 
-// Kun text- 0 - Green - 1 - White - 2 - Red - 3 - Babyblue
+// FREDERIK - Kun text- 0 - Green - 1 - White - 2 - Red - 3 - Babyblue
 var colors = ["#749850", "white", "red", "#0D96E1"];
 
 function changeColor1(element, color) {
@@ -56,13 +56,13 @@ function detectMad() {
     message = "book bord på mamas for bedste chip med ost";
   } else {
     message =
-      "det har vi ikke, men så er der indisk fra mormors thai på vestergade";
+      " Prøv Indisk fra mormors thai på vestergade, det er super lækkert!";
   }
 
   alert(message);
 }
 
-const varianter = ["Pizza", "Burger", "Nachos", "Lasses klunker"];
+const varianter = ["Pizza", "Burger", "Nachos"];
 let i, len, text;
 for (i = 0, len = varianter.length, text = ""; i < len; i++) {
   text += varianter[i] + "<br>";
