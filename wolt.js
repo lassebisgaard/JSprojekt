@@ -31,6 +31,20 @@ function detectMad() {
   alert(message);
 }
 
+function detectSøg() {
+  var søg = document.getElementById("søg").value;
+  var besked;
+
+  if (søg.toLowerCase() == "Odense") {
+    besked = "Du kan vælge imellem Emils hot house, Chicago burger og Mammas";
+  } else {
+    besked =
+      " Der er desværring ingen mad i nærheden af dig";
+  }
+
+  alert(besked);
+}
+
 const varianter = ["Pizza", "Burger", "Nachos"];
 let i, len, text;
 for (i = 0, len = varianter.length, text = ""; i < len; i++) {
