@@ -184,13 +184,7 @@ body {
 .skriveboxstyling {
   background: rgb(255, 255, 255);
   font-size: 1rem;
-  line-height: 1.5rem;
-  font-style: normal;
-  font-stretch: normal;
-  text-transform: none;
-  font-weight: 400;
-  appearance: none;
-  box-shadow: none;
+  line-height: 2.5rem;
   box-sizing: border-box;
   width: 100%;
   color: rgb(32, 33, 37);
@@ -198,7 +192,7 @@ body {
   border-radius: 0.5rem;
   border: 2px solid rgba(32, 33, 37, 0.12);
   padding: 0.75rem 0.875rem;
-  padding-inline-start: 3.125rem;
+  padding-inline-start: 2.125rem;
 }
 .textstylingbox {
   position: absolute;
