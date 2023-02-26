@@ -40,8 +40,8 @@
        <div class="boxposition">
          <div class="skrivebox">
            <div class="skrivebox1">
-             <input role="combobox" aria-expanded="false" aria-controls="suggestions" aria-autocomplete="list" aria-haspopup="listbox" data-test-id="frontPageInput" id="front-page-input" placeholder=" " autocomplete="off" spellcheck="false" class="skriveboxstyling" value="">
-             <label for="front-page-input" class="textstylingbox">Vælg leveringsadresse</label>
+             <input role="combobox" aria-expanded="false" aria-controls="suggestions" aria-autocomplete="list" aria-haspopup="listbox" data-test-id="frontPageInput" id="front-page-input" placeholder="Vælg leveringsadresse" autocomplete="off" spellcheck="false" class="skriveboxstyling" value="">
+             <label for="front-page-input" class="textstylingbox"></label>
            </div>
          </div>
 
@@ -49,6 +49,14 @@
           Eller se populære restauranter og butikker i Odense
         </p>
       </div>
+
+<br><br><br><br><br>
+
+      <form>
+        <label for="mad">Hvad har du lyst til af mad?</label>
+        <input type="text" id="mad" name="mad">
+        <button type="submit" onclick="detectMad()">Få inspiration!</button>
+      </form>
     </div>
   </main>
 
