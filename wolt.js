@@ -12,7 +12,7 @@ function changeColor1(element, color) {
   element.style.color = color;
 }
 
-//johannes
+
 function detectMad() {
   var mad = document.getElementById("mad").value;
   var message;
