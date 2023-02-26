@@ -12,7 +12,7 @@ function changeColor1(element, color) {
   element.style.color = color;
 }
 
-<<<<<<< HEAD
+//David
 const openModalButtons = document.querySelectorAll("[data-modal-target]");
 const closeModalButtons = document.querySelectorAll("[data-close-button]");
 const overlay = document.getElementById("overlay");
@@ -41,8 +41,9 @@ function closeModal(modal) {
   if (modal == null) return;
   modal.classlist.remove("active");
   overlay.classlist.remove("active");
-=======
+}
 
+//johannes
 function detectMad() {
   var mad = document.getElementById("mad").value;
   var message;
@@ -54,9 +55,9 @@ function detectMad() {
   } else if (mad.toLowerCase() == "nachos") {
     message = "book bord på mamas for bedste chip med ost";
   } else {
-    message = "det har vi ikke, men så er der indisk fra mormors thai på vestergade";
+    message =
+      "det har vi ikke, men så er der indisk fra mormors thai på vestergade";
   }
 
   alert(message);
->>>>>>> 62ae9c3ec6a91b0170c57e98f577abac10079706
 }
