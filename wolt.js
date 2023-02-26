@@ -13,3 +13,19 @@ function changeColor1(element, color) {
 }
 
 
+function detectMad() {
+  var mad = document.getElementById("mad").value;
+  var message;
+
+  if (mad.toLowerCase() == "pizza") {
+    message = "emils hot house har gode pizzaer";
+  } else if (mad.toLowerCase() == "burger") {
+    message = "prøv det nye monster fra chicago burger";
+  } else if (mad.toLowerCase() == "nachos") {
+    message = "book bord på mamas for bedste chip med ost";
+  } else {
+    message = "det har vi ikke, men så er der indisk fra mormors thai på vestergade";
+  }
+
+  alert(message);
+}
