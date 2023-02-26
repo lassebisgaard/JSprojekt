@@ -35,7 +35,7 @@ function detectSøg() {
   var søg = document.getElementById("søg").value;
   var besked;
 
-  if (søg.toLowerCase() == "Odense") {
+  if (søg.toLowerCase() == "odense") {
     besked = "Du kan vælge imellem Emils hot house, Chicago burger og Mammas";
   } else {
     besked =
